@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Young+Serif&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Darumadrop One', cursive;
+  font-family: 'Young Serif', serif;
+  background: #010101;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.grid {
+  text-align: center;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+@media (max-width: 890px){
+  .grid{
+    display: block;
+  }
+}

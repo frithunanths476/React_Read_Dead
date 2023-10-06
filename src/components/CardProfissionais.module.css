@@ -1,0 +1,32 @@
+.fundo {
+    background: #e1d2b5;
+    border-radius: 4px 4px 50px 50px;
+    padding: 50px;
+    margin: 20px;
+    width: 20vw;
+}
+
+.fundo img {
+    max-width: 100%;
+}
+
+.status {
+    color: #B22222;
+    font-size: large;
+}
+
+.ocupacao {
+    color: #A0522D;
+    font-size: larger;
+}
+
+.nome {
+    color: #8B4513;
+    font-size: x-large;
+}
+
+@media (max-width: 890px){
+    .fundo{
+        width: 67vw;
+    }
+}
